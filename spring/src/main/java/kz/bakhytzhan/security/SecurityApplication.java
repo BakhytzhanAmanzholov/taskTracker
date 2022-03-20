@@ -38,8 +38,6 @@ public class SecurityApplication {
                     "amanzholovbakhytzhan@gmail.com", "password23A",
                     null, new ArrayList<>());
             userService.saveUser(person);
-            projectService.saveProject(new Project(null, "New Title", "Description project",person, new Date(),
-                    new Date(), "status", 8));
         };
     }
 
